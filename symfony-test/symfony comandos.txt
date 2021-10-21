@@ -1,0 +1,8 @@
+composer create-project symfony/skeleton nombre_proyecto 
+symfony server:start inicia servidor apache
+php bin/console doctrine:database:create para crear la base de datos 
+php bin/console make:entity para crear una entidad de base de datos
+php bin/console make:migration para crear una migración de entidad de base de datos
+php bin/console doctrine:migrations:migrate para crear una entidad en la base de datos
+php bin/console make:controller ConferenceController para crear un controlador
+
